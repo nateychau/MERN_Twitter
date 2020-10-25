@@ -54,7 +54,8 @@ class SignupForm extends React.Component {
         password2: this.state.password2
       };
   
-      this.props.signup(user, this.props.history); 
+      this.props.signup(user); 
+      //, this.props.history
     }
   
     renderErrors() {
